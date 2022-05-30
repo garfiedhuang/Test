@@ -24,4 +24,4 @@ RUN dotnet restore "DockerDemo/DockerDemo.csproj"
 #ENTRYPOINT ["dotnet", "DockerDemo.dll"]
 
 
-ENTRYPOINT ["cat", "appsettings.json"]
+ENTRYPOINT ["cat", "DockerDemo/DockerDemo.csproj"]
