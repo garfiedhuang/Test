@@ -1,0 +1,11 @@
+.vs
+bin
+obj
+*.user
+*.log
+logs
+publish/
+/src/.sonarqube
+/src/.sonarlint
+.vscode
+.editorconfig
