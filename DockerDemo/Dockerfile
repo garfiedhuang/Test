@@ -24,4 +24,4 @@ RUN dotnet restore "DockerDemo/DockerDemo.csproj"
 #ENTRYPOINT ["dotnet", "DockerDemo.dll"]
 
 
-ENTRYPOINT ["cat", "DockerDemo/DockerDemo.csproj"]
+ENTRYPOINT ["tail", "-f","DockerDemo/DockerDemo.csproj"]
