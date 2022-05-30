@@ -24,4 +24,4 @@ RUN dotnet build "DockerDemo.csproj" -c Release -o /app/build
 #ENTRYPOINT ["dotnet", "DockerDemo.dll"]
 
 
-ENTRYPOINT ["tail", "-f","DockerDemo/DockerDemo.csproj"]
+ENTRYPOINT ["tail", "-f","/src/DockerDemo/DockerDemo.csproj"]
