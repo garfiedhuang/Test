@@ -25,3 +25,14 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+Test();
+
+
+static void Test()
+{
+    var aaaa = new { A=1,B=2};
+
+    var bbbb =Newtonsoft.Json.JsonConvert.SerializeObject(aaaa);
+}
